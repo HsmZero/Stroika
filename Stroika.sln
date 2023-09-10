@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stroika", "Stroika\Stroika.csproj", "{D6C926D3-9454-4FD0-8190-6FBA968DDAE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stroika.DAL", "Stroika.DAL\Stroika.DAL.csproj", "{6773336A-3605-4959-AF23-E1D303F70033}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stroika.Services", "Stroika.Services", "{0AB769EA-3260-4460-952A-A3D6F3C95677}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stroika.Services", "Stroika.Services\Stroika.Services.csproj", "{FC2630B2-B7BE-4149-A79F-35DC150FA506}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stroika.Services.Interface", "Stroika.Services.Interface\Stroika.Services.Interface.csproj", "{AC104425-8EBD-4E31-92BB-1B9CB4571D9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stroika.DAL", "Stroika.DAL", "{A2FCC8B0-0326-4BA4-B5FC-AB3057F69B40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stroika.Models", "Stroika.Models", "{36C43E24-6337-48DD-B4EF-BEFA6491B951}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stroika.Models", "Stroika.Models\Stroika.Models.csproj", "{3EEB7C6E-467B-41D1-A89F-945DCDAF54EE}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Stroika.ClientApp", "Stroika.ClientApp\", "{0D8E9196-3A3A-4943-93D6-8AE63C5A8E6A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59073"
+		Debug.AspNetCompiler.PhysicalPath = "Stroika.ClientApp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59073\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59073"
+		Release.AspNetCompiler.PhysicalPath = "Stroika.ClientApp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59073\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59073"
+		SlnRelativePath = "Stroika.ClientApp\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6C926D3-9454-4FD0-8190-6FBA968DDAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C926D3-9454-4FD0-8190-6FBA968DDAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C926D3-9454-4FD0-8190-6FBA968DDAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C926D3-9454-4FD0-8190-6FBA968DDAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6773336A-3605-4959-AF23-E1D303F70033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6773336A-3605-4959-AF23-E1D303F70033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6773336A-3605-4959-AF23-E1D303F70033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6773336A-3605-4959-AF23-E1D303F70033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2630B2-B7BE-4149-A79F-35DC150FA506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2630B2-B7BE-4149-A79F-35DC150FA506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2630B2-B7BE-4149-A79F-35DC150FA506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2630B2-B7BE-4149-A79F-35DC150FA506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC104425-8EBD-4E31-92BB-1B9CB4571D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC104425-8EBD-4E31-92BB-1B9CB4571D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC104425-8EBD-4E31-92BB-1B9CB4571D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC104425-8EBD-4E31-92BB-1B9CB4571D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EEB7C6E-467B-41D1-A89F-945DCDAF54EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EEB7C6E-467B-41D1-A89F-945DCDAF54EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EEB7C6E-467B-41D1-A89F-945DCDAF54EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EEB7C6E-467B-41D1-A89F-945DCDAF54EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D8E9196-3A3A-4943-93D6-8AE63C5A8E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8E9196-3A3A-4943-93D6-8AE63C5A8E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8E9196-3A3A-4943-93D6-8AE63C5A8E6A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8E9196-3A3A-4943-93D6-8AE63C5A8E6A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6773336A-3605-4959-AF23-E1D303F70033} = {A2FCC8B0-0326-4BA4-B5FC-AB3057F69B40}
+		{FC2630B2-B7BE-4149-A79F-35DC150FA506} = {0AB769EA-3260-4460-952A-A3D6F3C95677}
+		{AC104425-8EBD-4E31-92BB-1B9CB4571D9D} = {0AB769EA-3260-4460-952A-A3D6F3C95677}
+		{3EEB7C6E-467B-41D1-A89F-945DCDAF54EE} = {36C43E24-6337-48DD-B4EF-BEFA6491B951}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19083052-B07E-42DE-AED4-C58EE89587E1}
+	EndGlobalSection
+EndGlobal
